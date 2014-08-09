@@ -42,9 +42,9 @@ Phases:
        optimized so that we get accurate stock or company related status or tweets
    * Twitter
    * Financial Social Network
-* Image Analysis
+* Image Analysis:
       on hold
-* Game Theory: Mechanism Design
+* Game Theory: Mechanism Design:
       on hold     
 
 Technologies:
