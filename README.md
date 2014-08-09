@@ -1,8 +1,8 @@
 Stock-Caster
 ============
-by Rupak Chakraborty
-
 A diverse and multi-system stock predictor using reinforcement learning
+--by Rupak Chakraborty
+
 
 General View of the System Requirements at an Abstract Level:
 -------------------------------------------------------------
@@ -30,32 +30,32 @@ Finally the independent predictions made by each module will be coalesced into a
 
 Phases:
 -------
- Background studies:
-    current: Initial Reading
- Modules
-    Web Crawler (Text & Images) : Text is completed / Image left
-    Stock data (Yahoo, Google Finance)
-    Financial Condition (SEC Filings)
-    Analyzing Mood (sentiments) of the companies with reading articles of major financial news provider  
- Social Media
-    Facebook
-        optimized so that we get accurate stock or company related status or tweets
-    Twitter
-    Financial Social Network
-Image Analysis
-    on hold
-Game Theory: Mechanism Design
-    on hold     
+ * Background studies
+   * current: Initial Reading
+ * Modules
+   * Web Crawler (Text & Images) : Text is completed / Image left
+   * Stock data (Yahoo, Google Finance)
+   * Financial Condition (SEC Filings)
+   * Analyzing Mood (sentiments) of the companies with reading articles of major financial news provider  
+ * Social Media
+   * Facebook
+       optimized so that we get accurate stock or company related status or tweets
+   * Twitter
+   * Financial Social Network
+* Image Analysis
+    * on hold
+* Game Theory: Mechanism Design
+    * on hold     
 
 Technologies:
 ------------
-Web Crawler : Scrapy, Selenium
-ML : SciPy, NumPy, Pandas
-NLP: nltk
-Sentiment Analysis : Orange Python
+* Web Crawler : Scrapy, Selenium
+* ML : SciPy, NumPy, Pandas
+* NLP: nltk
+* Sentiment Analysis : Orange Python
 
 Time Line: Basic Model ( Till October End)
 ------------------------------------------
-It should crawl all the articles, stocks and predict it. Then it should be able to correct itself and test accuracy and efficiency.
-left : Web API and Interface
+* It should crawl all the articles, stocks and predict it. Then it should be able to correct itself and test accuracy and efficiency.
+* left : Web API and Interface
   
