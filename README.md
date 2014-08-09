@@ -1,5 +1,6 @@
 Stock-Caster
 ============
+by Rupak Chakraborty
 
 A diverse and multi-system stock predictor using reinforcement learning
 
@@ -25,3 +26,36 @@ Thus as you can we have a nested hierarchy of modules here, only the NLP and ima
 5. Game Theoretic and Social Network analysis Module : This will be our flagship module, mechanism design and prediction alloying the opposite ends of game theory and social network analysis to make a seasoned and well informed prediction. We look at things called company and stock graphs multi-agent systems in game theoretic perspective.
 
 Finally the independent predictions made by each module will be coalesced into a single module which will make predictions based on individual modules.. Again this will be a tough nut to crack finding the right combination is as much of an art as science. 
+
+
+Phases:
+-------
+ Background studies:
+    current: Initial Reading
+ Modules
+    Web Crawler (Text & Images) : Text is completed / Image left
+    Stock data (Yahoo, Google Finance)
+    Financial Condition (SEC Filings)
+    Analyzing Mood (sentiments) of the companies with reading articles of major financial news provider  
+ Social Media
+    Facebook
+        optimized so that we get accurate stock or company related status or tweets
+    Twitter
+    Financial Social Network
+Image Analysis
+    on hold
+Game Theory: Mechanism Design
+    on hold     
+
+Technologies:
+------------
+Web Crawler : Scrapy, Selenium
+ML : SciPy, NumPy, Pandas
+NLP: nltk
+Sentiment Analysis : Orange Python
+
+Time Line: Basic Model ( Till October End)
+------------------------------------------
+It should crawl all the articles, stocks and predict it. Then it should be able to correct itself and test accuracy and efficiency.
+left : Web API and Interface
+  
