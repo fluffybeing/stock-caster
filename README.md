@@ -43,9 +43,9 @@ Phases:
    * Twitter
    * Financial Social Network
 * Image Analysis
-    * on hold
+      on hold
 * Game Theory: Mechanism Design
-    * on hold     
+      on hold     
 
 Technologies:
 ------------
